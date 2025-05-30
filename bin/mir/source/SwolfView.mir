@@ -1,0 +1,492 @@
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 4; @symbol_classdef = [SwolfView,4,6,15]; @symbol_extends<0> = [WatchUi,4,24,31]; @symbol_extends<1> = [View,4,32,36]; ]
+class SwolfView extends WatchUi.View {
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_6_26_8_4_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 7 8 ]
+        symbol [ View %tmp.2 7 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 7 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_6_26_8_4_stop:
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 11; @symbol_functiondef = [onLayout,11,13,21]; @symbol_param<0> = [dc,11,22,24]; @symbol_param<0>_type<0> = [Dc,11,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_11_40_13_4_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 12 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 12 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 12 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 12 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 12 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 12 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_11_40_13_4_stop:
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 18; @symbol_functiondef = [onShow,18,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 22; @symbol_functiondef = [onUpdate,22,13,21]; @symbol_param<0> = [dc,22,22,24]; @symbol_param<0>_type<0> = [Dc,22,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 24 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 24 8 11 ];
+        %tmp.1 = self;
+        symbol [ getApp %tmp.2 24 14 20 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %app.1 %tmp.3;
+        symbol [ app %app.1 24 8 11 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 25 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %currentHole.2 = local;
+        symbol [ currentHole %currentHole.2 25 8 19 ];
+        %tmp.4 = lgetv %app.1;
+        symbol [ app %tmp.4 25 22 25 ];
+        symbol [ getCurrentHole %tmp.5 25 26 40 ];
+        %tmp.5 = getv function %tmp.4 :getCurrentHole;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %currentHole.2 %tmp.6;
+        symbol [ currentHole %currentHole.2 25 8 19 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 26 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %strokes.3 = local;
+        symbol [ strokes %strokes.3 26 8 15 ];
+        %tmp.7 = lgetv %app.1;
+        symbol [ app %tmp.7 26 18 21 ];
+        symbol [ getStrokes %tmp.8 26 22 32 ];
+        %tmp.8 = getv function %tmp.7 :getStrokes;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        lputv %strokes.3 %tmp.9;
+        symbol [ strokes %strokes.3 26 8 15 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 29 4 ]
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 29 4 6 ];
+        symbol [ setColor %tmp.11 29 7 15 ];
+        %tmp.11 = getv function %tmp.10 :setColor;
+        symbol [ Graphics %tmp.12 29 16 24 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.13 29 25 36 ];
+        %tmp.13 = getv %tmp.12 :COLOR_BLACK;
+        symbol [ Graphics %tmp.14 29 38 46 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.15 29 47 58 ];
+        %tmp.15 = getv %tmp.14 :COLOR_BLACK;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 30 4 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 30 4 6 ];
+        symbol [ clear %tmp.17 30 7 12 ];
+        %tmp.17 = getv function %tmp.16 :clear;
+        invoke %tmp.16 %tmp.17();
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 33 4 ]
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 33 4 6 ];
+        symbol [ setColor %tmp.19 33 7 15 ];
+        %tmp.19 = getv function %tmp.18 :setColor;
+        symbol [ Graphics %tmp.20 33 16 24 ];
+        %tmp.20 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.21 33 25 36 ];
+        %tmp.21 = getv %tmp.20 :COLOR_WHITE;
+        symbol [ Graphics %tmp.22 33 38 46 ];
+        %tmp.22 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.23 33 47 64 ];
+        %tmp.23 = getv %tmp.22 :COLOR_TRANSPARENT;
+        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 36 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %width.4 = local;
+        symbol [ width %width.4 36 8 13 ];
+        %tmp.24 = lgetv %dc;
+        symbol [ dc %tmp.24 36 16 18 ];
+        symbol [ getWidth %tmp.25 36 19 27 ];
+        %tmp.25 = getv function %tmp.24 :getWidth;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        lputv %width.4 %tmp.26;
+        symbol [ width %width.4 36 8 13 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 37 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %height.5 = local;
+        symbol [ height %height.5 37 8 14 ];
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 37 17 19 ];
+        symbol [ getHeight %tmp.28 37 20 29 ];
+        %tmp.28 = getv function %tmp.27 :getHeight;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        lputv %height.5 %tmp.29;
+        symbol [ height %height.5 37 8 14 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 38 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %centerX.6 = local;
+        symbol [ centerX %centerX.6 38 8 15 ];
+        %tmp.30 = lgetv %width.4;
+        symbol [ width %tmp.30 38 18 23 ];
+        %tmp.31 = 2;
+        %tmp.32 = div %tmp.30 %tmp.31;
+        lputv %centerX.6 %tmp.32;
+        symbol [ centerX %centerX.6 38 8 15 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 39 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %centerY.7 = local;
+        symbol [ centerY %centerY.7 39 8 15 ];
+        %tmp.33 = lgetv %height.5;
+        symbol [ height %tmp.33 39 18 24 ];
+        %tmp.34 = 2;
+        %tmp.35 = div %tmp.33 %tmp.34;
+        lputv %centerY.7 %tmp.35;
+        symbol [ centerY %centerY.7 39 8 15 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 43 0 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %currentPar.8 = local;
+        symbol [ currentPar %currentPar.8 43 4 14 ];
+        %tmp.36 = lgetv %app.1;
+        symbol [ app %tmp.36 43 17 20 ];
+        symbol [ getCurrentPar %tmp.37 43 21 34 ];
+        %tmp.37 = getv function %tmp.36 :getCurrentPar;
+        %tmp.38 = invoke %tmp.36 %tmp.37();
+        lputv %currentPar.8 %tmp.38;
+        symbol [ currentPar %currentPar.8 43 4 14 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 46 0 ]
+        %tmp.39 = lgetv %dc;
+        symbol [ dc %tmp.39 46 0 2 ];
+        symbol [ drawText %tmp.40 46 3 11 ];
+        %tmp.40 = getv function %tmp.39 :drawText;
+        %tmp.41 = lgetv %centerX.6;
+        symbol [ centerX %tmp.41 46 12 19 ];
+        %tmp.42 = lgetv %centerY.7;
+        symbol [ centerY %tmp.42 46 21 28 ];
+        %tmp.43 = 185;
+        %tmp.44 = sub %tmp.42 %tmp.43;
+        symbol [ Graphics %tmp.45 46 36 44 ];
+        %tmp.45 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.46 46 45 55 ];
+        %tmp.46 = getv %tmp.45 :FONT_LARGE;
+        %tmp.47 = "Par ";
+        %tmp.48 = lgetv %currentPar.8;
+        symbol [ currentPar %tmp.48 47 20 30 ];
+        %tmp.49 = add %tmp.47 %tmp.48;
+        symbol [ Graphics %tmp.50 47 32 40 ];
+        %tmp.50 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.51 47 41 60 ];
+        %tmp.51 = getv %tmp.50 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.39 %tmp.40(%tmp.41, %tmp.44, %tmp.46, %tmp.49, %tmp.51);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 50 0 ]
+        %tmp.52 = lgetv %dc;
+        symbol [ dc %tmp.52 50 0 2 ];
+        symbol [ drawText %tmp.53 50 3 11 ];
+        %tmp.53 = getv function %tmp.52 :drawText;
+        %tmp.54 = lgetv %centerX.6;
+        symbol [ centerX %tmp.54 50 12 19 ];
+        %tmp.55 = lgetv %centerY.7;
+        symbol [ centerY %tmp.55 50 21 28 ];
+        %tmp.56 = 130;
+        %tmp.57 = sub %tmp.55 %tmp.56;
+        symbol [ Graphics %tmp.58 50 36 44 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.59 50 45 56 ];
+        %tmp.59 = getv %tmp.58 :FONT_MEDIUM;
+        %tmp.60 = "Hole ";
+        %tmp.61 = lgetv %currentHole.2;
+        symbol [ currentHole %tmp.61 51 21 32 ];
+        %tmp.62 = add %tmp.60 %tmp.61;
+        symbol [ Graphics %tmp.63 51 34 42 ];
+        %tmp.63 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.64 51 43 62 ];
+        %tmp.64 = getv %tmp.63 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.52 %tmp.53(%tmp.54, %tmp.57, %tmp.59, %tmp.62, %tmp.64);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 54 0 ]
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 54 0 2 ];
+        symbol [ drawText %tmp.66 54 3 11 ];
+        %tmp.66 = getv function %tmp.65 :drawText;
+        %tmp.67 = lgetv %centerX.6;
+        symbol [ centerX %tmp.67 54 12 19 ];
+        %tmp.68 = lgetv %centerY.7;
+        symbol [ centerY %tmp.68 54 21 28 ];
+        %tmp.69 = 75;
+        %tmp.70 = sub %tmp.68 %tmp.69;
+        symbol [ Graphics %tmp.71 54 34 42 ];
+        %tmp.71 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.72 54 43 54 ];
+        %tmp.72 = getv %tmp.71 :FONT_MEDIUM;
+        %tmp.73 = "Strokes: ";
+        %tmp.74 = lgetv %strokes.3;
+        symbol [ strokes %tmp.74 55 25 32 ];
+        %tmp.75 = add %tmp.73 %tmp.74;
+        symbol [ Graphics %tmp.76 55 34 42 ];
+        %tmp.76 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.77 55 43 62 ];
+        %tmp.77 = getv %tmp.76 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.65 %tmp.66(%tmp.67, %tmp.70, %tmp.72, %tmp.75, %tmp.77);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 57 0 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %hasGPS.9 = local;
+        symbol [ hasGPS %hasGPS.9 57 4 10 ];
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_begin:
+        %tmp.78 = lgetv %app.1;
+        symbol [ app %tmp.78 57 13 16 ];
+        symbol [ hasGPSFix %tmp.79 57 17 26 ];
+        %tmp.79 = getv function %tmp.78 :hasGPSFix;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        bf %tmp.80 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_false;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_true:
+        %tmp.81 = "GPS: ON";
+        push %tmp.81;
+        goto @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_false:
+        %tmp.82 = "GPS: OFF";
+        push %tmp.82;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_end:
+        %tmp.83 = phi [%tmp.80 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_begin] [%tmp.81 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_true] [%tmp.82 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_false] [%tmp.83 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_57_13_57_43_end];
+        lputv %hasGPS.9 %tmp.83;
+        symbol [ hasGPS %hasGPS.9 57 4 10 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 58 0 ]
+        %tmp.84 = lgetv %dc;
+        symbol [ dc %tmp.84 58 0 2 ];
+        symbol [ drawText %tmp.85 58 3 11 ];
+        %tmp.85 = getv function %tmp.84 :drawText;
+        %tmp.86 = lgetv %centerX.6;
+        symbol [ centerX %tmp.86 58 12 19 ];
+        %tmp.87 = lgetv %centerY.7;
+        symbol [ centerY %tmp.87 58 21 28 ];
+        %tmp.88 = 60;
+        %tmp.89 = add %tmp.87 %tmp.88;
+        symbol [ Graphics %tmp.90 58 35 43 ];
+        %tmp.90 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.91 58 44 53 ];
+        %tmp.91 = getv %tmp.90 :FONT_TINY;
+        %tmp.92 = lgetv %hasGPS.9;
+        symbol [ hasGPS %tmp.92 58 55 61 ];
+        symbol [ Graphics %tmp.93 58 63 71 ];
+        %tmp.93 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.94 58 72 91 ];
+        %tmp.94 = getv %tmp.93 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.84 %tmp.85(%tmp.86, %tmp.89, %tmp.91, %tmp.92, %tmp.94);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 61 0 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop" ]
+        %distances.10 = local;
+        symbol [ distances %distances.10 61 4 13 ];
+        %tmp.95 = lgetv %app.1;
+        symbol [ app %tmp.95 61 16 19 ];
+        symbol [ getCurrentDistances %tmp.96 61 20 39 ];
+        %tmp.96 = getv function %tmp.95 :getCurrentDistances;
+        %tmp.97 = invoke %tmp.95 %tmp.96();
+        lputv %distances.10 %tmp.97;
+        symbol [ distances %distances.10 61 4 13 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 62 0 ]
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_0_72_0_if_stmt:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_4_62_39_begin:
+        %tmp.98 = lgetv %distances.10;
+        symbol [ distances %tmp.98 62 4 13 ];
+        %tmp.99 = null;
+        %tmp.100 = ne %tmp.98 %tmp.99;
+        bf %tmp.100 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_0_72_0_if_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_25_62_39_true:
+        %tmp.101 = lgetv %app.1;
+        symbol [ app %tmp.101 62 25 28 ];
+        symbol [ hasGPSFix %tmp.102 62 29 38 ];
+        %tmp.102 = getv function %tmp.101 :hasGPSFix;
+        %tmp.103 = invoke %tmp.101 %tmp.102();
+        push %tmp.103;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_25_62_39_end:
+        %tmp.104 = phi [%tmp.100 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_4_62_39_begin] [%tmp.103 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_25_62_39_true] [%tmp.104 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_25_62_39_end];
+        bf %tmp.104 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_0_72_0_if_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_0_72_0_if_true:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 63 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_stop" ]
+        %front.11 = local;
+        symbol [ front %front.11 63 8 13 ];
+        %tmp.105 = lgetv %distances.10;
+        symbol [ distances %tmp.105 63 16 25 ];
+        %tmp.106 = as %tmp.105 { (!Null) };
+        symbol [ get %tmp.107 63 26 29 ];
+        %tmp.107 = getv function %tmp.106 :get;
+        %tmp.108 = "distToFront";
+        %tmp.109 = invoke %tmp.106 %tmp.107(%tmp.108);
+        lputv %front.11 %tmp.109;
+        symbol [ front %front.11 63 8 13 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 64 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_stop" ]
+        %center.12 = local;
+        symbol [ center %center.12 64 8 14 ];
+        %tmp.110 = lgetv %distances.10;
+        symbol [ distances %tmp.110 64 17 26 ];
+        %tmp.111 = as %tmp.110 { (!Null) };
+        symbol [ get %tmp.112 64 27 30 ];
+        %tmp.112 = getv function %tmp.111 :get;
+        %tmp.113 = "distToCenter";
+        %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
+        lputv %center.12 %tmp.114;
+        symbol [ center %center.12 64 8 14 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 65 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_stop" ]
+        %back.13 = local;
+        symbol [ back %back.13 65 8 12 ];
+        %tmp.115 = lgetv %distances.10;
+        symbol [ distances %tmp.115 65 15 24 ];
+        %tmp.116 = as %tmp.115 { (!Null) };
+        symbol [ get %tmp.117 65 25 28 ];
+        %tmp.117 = getv function %tmp.116 :get;
+        %tmp.118 = "distToBack";
+        %tmp.119 = invoke %tmp.116 %tmp.117(%tmp.118);
+        lputv %back.13 %tmp.119;
+        symbol [ back %back.13 65 8 12 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 67 4 ]
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_4_71_4_if_stmt:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_8_67_51_begin:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_8_67_35_begin:
+        %tmp.120 = lgetv %front.11;
+        symbol [ front %tmp.120 67 8 13 ];
+        %tmp.121 = null;
+        %tmp.122 = ne %tmp.120 %tmp.121;
+        bf %tmp.122 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_4_71_4_if_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_25_67_35_true:
+        %tmp.123 = lgetv %center.12;
+        symbol [ center %tmp.123 67 25 31 ];
+        %tmp.124 = null;
+        %tmp.125 = ne %tmp.123 %tmp.124;
+        push %tmp.125;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_25_67_35_end:
+        %tmp.126 = phi [%tmp.122 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_8_67_35_begin] [%tmp.125 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_25_67_35_true] [%tmp.126 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_25_67_35_end];
+        bf %tmp.126 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_4_71_4_if_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_43_67_51_true:
+        %tmp.127 = lgetv %back.13;
+        symbol [ back %tmp.127 67 43 47 ];
+        %tmp.128 = null;
+        %tmp.129 = ne %tmp.127 %tmp.128;
+        push %tmp.129;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_43_67_51_end:
+        %tmp.130 = phi [%tmp.126 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_8_67_51_begin] [%tmp.129 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_43_67_51_true] [%tmp.130 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_43_67_51_end];
+        bf %tmp.130 @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_4_71_4_if_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_4_71_4_if_true:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_57_71_4_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 68 8 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_57_71_4_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_57_71_4_stop" ]
+        %distText.14 = local;
+        symbol [ distText %distText.14 68 12 20 ];
+        %tmp.131 = lgetv %front.11;
+        symbol [ front %tmp.131 68 23 28 ];
+        %tmp.132 = as %tmp.131 { (!Null) };
+        symbol [ toNumber %tmp.133 68 29 37 ];
+        %tmp.133 = getv function %tmp.132 :toNumber;
+        %tmp.134 = invoke %tmp.132 %tmp.133();
+        %tmp.135 = " | ";
+        %tmp.136 = add %tmp.134 %tmp.135;
+        %tmp.137 = lgetv %center.12;
+        symbol [ center %tmp.137 68 50 56 ];
+        %tmp.138 = as %tmp.137 { (!Null) };
+        symbol [ toNumber %tmp.139 68 57 65 ];
+        %tmp.139 = getv function %tmp.138 :toNumber;
+        %tmp.140 = invoke %tmp.138 %tmp.139();
+        %tmp.141 = add %tmp.136 %tmp.140;
+        %tmp.142 = " | ";
+        %tmp.143 = add %tmp.141 %tmp.142;
+        %tmp.144 = lgetv %back.13;
+        symbol [ back %tmp.144 68 78 82 ];
+        %tmp.145 = as %tmp.144 { (!Null) };
+        symbol [ toNumber %tmp.146 68 83 91 ];
+        %tmp.146 = getv function %tmp.145 :toNumber;
+        %tmp.147 = invoke %tmp.145 %tmp.146();
+        %tmp.148 = add %tmp.143 %tmp.147;
+        lputv %distText.14 %tmp.148;
+        symbol [ distText %distText.14 68 12 20 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 69 8 ]
+        %tmp.149 = lgetv %dc;
+        symbol [ dc %tmp.149 69 8 10 ];
+        symbol [ drawText %tmp.150 69 11 19 ];
+        %tmp.150 = getv function %tmp.149 :drawText;
+        %tmp.151 = lgetv %centerX.6;
+        symbol [ centerX %tmp.151 69 20 27 ];
+        %tmp.152 = lgetv %centerY.7;
+        symbol [ centerY %tmp.152 69 29 36 ];
+        %tmp.153 = 80;
+        %tmp.154 = add %tmp.152 %tmp.153;
+        symbol [ Graphics %tmp.155 69 43 51 ];
+        %tmp.155 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.156 69 52 62 ];
+        %tmp.156 = getv %tmp.155 :FONT_SMALL;
+        %tmp.157 = lgetv %distText.14;
+        symbol [ distText %tmp.157 69 64 72 ];
+        symbol [ Graphics %tmp.158 69 74 82 ];
+        %tmp.158 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.159 69 83 102 ];
+        %tmp.159 = getv %tmp.158 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.149 %tmp.150(%tmp.151, %tmp.154, %tmp.156, %tmp.157, %tmp.159);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 70 8 ]
+        %tmp.160 = lgetv %dc;
+        symbol [ dc %tmp.160 70 8 10 ];
+        symbol [ drawText %tmp.161 70 11 19 ];
+        %tmp.161 = getv function %tmp.160 :drawText;
+        %tmp.162 = lgetv %centerX.6;
+        symbol [ centerX %tmp.162 70 20 27 ];
+        %tmp.163 = lgetv %centerY.7;
+        symbol [ centerY %tmp.163 70 29 36 ];
+        %tmp.164 = 100;
+        %tmp.165 = add %tmp.163 %tmp.164;
+        symbol [ Graphics %tmp.166 70 44 52 ];
+        %tmp.166 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.167 70 53 62 ];
+        %tmp.167 = getv %tmp.166 :FONT_TINY;
+        %tmp.168 = "Front | Center | Back";
+        symbol [ Graphics %tmp.169 70 89 97 ];
+        %tmp.169 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.170 70 98 117 ];
+        %tmp.170 = getv %tmp.169 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.160 %tmp.161(%tmp.162, %tmp.165, %tmp.167, %tmp.168, %tmp.170);
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_57_71_4_stop:
+        goto @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_4_71_4_if_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_67_4_71_4_if_end:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_42_72_0_stop:
+        goto @_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_0_72_0_if_end;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_62_0_72_0_if_end:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" 75 4 ]
+        %tmp.171 = lgetv %dc;
+        symbol [ dc %tmp.171 75 4 6 ];
+        symbol [ drawText %tmp.172 75 7 15 ];
+        %tmp.172 = getv function %tmp.171 :drawText;
+        %tmp.173 = lgetv %centerX.6;
+        symbol [ centerX %tmp.173 75 16 23 ];
+        %tmp.174 = lgetv %height.5;
+        symbol [ height %tmp.174 75 25 31 ];
+        %tmp.175 = 30;
+        %tmp.176 = sub %tmp.174 %tmp.175;
+        symbol [ Graphics %tmp.177 75 38 46 ];
+        %tmp.177 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.178 75 47 56 ];
+        %tmp.178 = getv %tmp.177 :FONT_TINY;
+        %tmp.179 = "SELECT: +1 stroke";
+        symbol [ Graphics %tmp.180 76 36 44 ];
+        %tmp.180 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.181 76 45 64 ];
+        %tmp.181 = getv %tmp.180 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.171 %tmp.172(%tmp.173, %tmp.176, %tmp.178, %tmp.179, %tmp.181);
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfView_mc_22_40_77_0_stop:
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 82; @symbol_functiondef = [onHide,82,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc"; @line = 1; ]
+<init> {
+}
