@@ -54,10 +54,11 @@ dc.drawText(centerX, centerY - 130, Graphics.FONT_MEDIUM,
 dc.drawText(centerX, centerY -75, Graphics.FONT_MEDIUM, 
            "Strokes: " + strokes, Graphics.TEXT_JUSTIFY_CENTER);
 
+// Display GPS status (move it up)
 var hasGPS = app.hasGPSFix() ? "GPS: ON" : "GPS: OFF";
-dc.drawText(centerX, centerY + 60, Graphics.FONT_TINY, hasGPS, Graphics.TEXT_JUSTIFY_CENTER);
+dc.drawText(centerX, centerY + 25, Graphics.FONT_TINY, hasGPS, Graphics.TEXT_JUSTIFY_CENTER);
 
-// Display distances (if available)
+// Display distances (move them down more)
 var distances = app.getCurrentDistances();
 if (distances != null && app.hasGPSFix()) {
     var front = distances.get("distToFront");
@@ -65,15 +66,14 @@ if (distances != null && app.hasGPSFix()) {
     var back = distances.get("distToBack");
     
     if (front != null && center != null && back != null) {
-        var distText = front.toNumber() + " | " + center.toNumber() + " | " + back.toNumber();
-        dc.drawText(centerX, centerY + 80, Graphics.FONT_SMALL, distText, Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(centerX, centerY + 100, Graphics.FONT_TINY, "Front | Center | Back", Graphics.TEXT_JUSTIFY_CENTER);
+        // Draw each number centered under its label - spread them out more
+        dc.drawText(centerX - 120, centerY + 65, Graphics.FONT_SMALL, front.toNumber().toString(), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(centerX, centerY + 65, Graphics.FONT_SMALL, center.toNumber().toString(), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(centerX + 130, centerY + 65, Graphics.FONT_SMALL, back.toNumber().toString(), Graphics.TEXT_JUSTIFY_CENTER);
+        
+        dc.drawText(centerX, centerY + 105, Graphics.FONT_TINY, "Front | Center | Back", Graphics.TEXT_JUSTIFY_CENTER);
     }
 }
-    
-    // Display instructions
-    dc.drawText(centerX, height - 30, Graphics.FONT_TINY, 
-               "SELECT: +1 stroke", Graphics.TEXT_JUSTIFY_CENTER);
 }
 
     // Called when this View is removed from the screen. Save the

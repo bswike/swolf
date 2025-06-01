@@ -4,8 +4,8 @@
 <pcToLineNum>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfMenuDelegate.mc" id="1" lineNum="5" parent="globals/SwolfMenuDelegate" pc="268435460" symbol="&lt;init&gt;"/>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="2" lineNum="4" parent="globals/SwolfDelegate" pc="268435472" symbol="&lt;init&gt;"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="3" lineNum="189" parent="globals" pc="268435484" symbol="getApp"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="3" lineNum="190" parent="globals" pc="268435494" symbol="getApp"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="3" lineNum="344" parent="globals" pc="268435484" symbol="getApp"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="3" lineNum="345" parent="globals" pc="268435494" symbol="getApp"/>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="5" lineNum="4" parent="globals/SwolfView" pc="268435525" symbol="&lt;init&gt;"/>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="6" lineNum="6" parent="globals/SwolfApp" pc="268435537" symbol="&lt;init&gt;"/>
@@ -16,146 +16,172 @@
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfMenuDelegate.mc" id="7" lineNum="15" parent="globals/SwolfMenuDelegate" pc="268435594" symbol="onMenuItem"/>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfMenuDelegate.mc" id="8" lineNum="7" parent="globals/SwolfMenuDelegate" pc="268435616" symbol="initialize"/>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfMenuDelegate.mc" id="8" lineNum="8" parent="globals/SwolfMenuDelegate" pc="268435618" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="26" parent="globals/SwolfDelegate" pc="268435631" symbol="onPreviousPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="28" parent="globals/SwolfDelegate" pc="268435634" symbol="onPreviousPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="29" parent="globals/SwolfDelegate" pc="268435642" symbol="onPreviousPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="30" parent="globals/SwolfDelegate" pc="268435650" symbol="onPreviousPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="31" parent="globals/SwolfDelegate" pc="268435661" symbol="onPreviousPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="10" lineNum="6" parent="globals/SwolfDelegate" pc="268435663" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="10" lineNum="7" parent="globals/SwolfDelegate" pc="268435665" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="10" parent="globals/SwolfDelegate" pc="268435678" symbol="onSelect"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="12" parent="globals/SwolfDelegate" pc="268435681" symbol="onSelect"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="13" parent="globals/SwolfDelegate" pc="268435689" symbol="onSelect"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="14" parent="globals/SwolfDelegate" pc="268435697" symbol="onSelect"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="15" parent="globals/SwolfDelegate" pc="268435708" symbol="onSelect"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="18" parent="globals/SwolfDelegate" pc="268435710" symbol="onNextPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="20" parent="globals/SwolfDelegate" pc="268435713" symbol="onNextPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="21" parent="globals/SwolfDelegate" pc="268435721" symbol="onNextPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="22" parent="globals/SwolfDelegate" pc="268435729" symbol="onNextPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="23" parent="globals/SwolfDelegate" pc="268435740" symbol="onNextPage"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="14" lineNum="11" parent="globals/SwolfView" pc="268435742" symbol="onLayout"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="14" lineNum="12" parent="globals/SwolfView" pc="268435744" symbol="onLayout"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="15" lineNum="6" parent="globals/SwolfView" pc="268435778" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="15" lineNum="7" parent="globals/SwolfView" pc="268435780" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="22" parent="globals/SwolfView" pc="268435793" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="24" parent="globals/SwolfView" pc="268435796" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="25" parent="globals/SwolfView" pc="268435804" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="26" parent="globals/SwolfView" pc="268435813" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="29" parent="globals/SwolfView" pc="268435822" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="30" parent="globals/SwolfView" pc="268435834" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="33" parent="globals/SwolfView" pc="268435842" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="36" parent="globals/SwolfView" pc="268435859" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="37" parent="globals/SwolfView" pc="268435868" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="38" parent="globals/SwolfView" pc="268435877" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="39" parent="globals/SwolfView" pc="268435884" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="43" parent="globals/SwolfView" pc="268435891" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="46" parent="globals/SwolfView" pc="268435900" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="50" parent="globals/SwolfView" pc="268435930" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="54" parent="globals/SwolfView" pc="268435960" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="57" parent="globals/SwolfView" pc="268435989" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="58" parent="globals/SwolfView" pc="268436014" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="61" parent="globals/SwolfView" pc="268436037" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="62" parent="globals/SwolfView" pc="268436046" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="27" parent="globals/SwolfDelegate" pc="268435631" symbol="onPreviousPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="29" parent="globals/SwolfDelegate" pc="268435634" symbol="onPreviousPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="30" parent="globals/SwolfDelegate" pc="268435642" symbol="onPreviousPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="31" parent="globals/SwolfDelegate" pc="268435650" symbol="onPreviousPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="32" parent="globals/SwolfDelegate" pc="268435658" symbol="onPreviousPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="9" lineNum="33" parent="globals/SwolfDelegate" pc="268435669" symbol="onPreviousPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="10" lineNum="6" parent="globals/SwolfDelegate" pc="268435671" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="10" lineNum="7" parent="globals/SwolfDelegate" pc="268435673" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="10" parent="globals/SwolfDelegate" pc="268435686" symbol="onSelect"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="12" parent="globals/SwolfDelegate" pc="268435689" symbol="onSelect"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="13" parent="globals/SwolfDelegate" pc="268435697" symbol="onSelect"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="14" parent="globals/SwolfDelegate" pc="268435705" symbol="onSelect"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="11" lineNum="15" parent="globals/SwolfDelegate" pc="268435716" symbol="onSelect"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="18" parent="globals/SwolfDelegate" pc="268435718" symbol="onNextPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="20" parent="globals/SwolfDelegate" pc="268435721" symbol="onNextPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="21" parent="globals/SwolfDelegate" pc="268435729" symbol="onNextPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="22" parent="globals/SwolfDelegate" pc="268435737" symbol="onNextPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="23" parent="globals/SwolfDelegate" pc="268435745" symbol="onNextPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" id="12" lineNum="24" parent="globals/SwolfDelegate" pc="268435756" symbol="onNextPage"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="14" lineNum="11" parent="globals/SwolfView" pc="268435758" symbol="onLayout"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="14" lineNum="12" parent="globals/SwolfView" pc="268435760" symbol="onLayout"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="15" lineNum="6" parent="globals/SwolfView" pc="268435794" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="15" lineNum="7" parent="globals/SwolfView" pc="268435796" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="22" parent="globals/SwolfView" pc="268435809" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="24" parent="globals/SwolfView" pc="268435812" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="25" parent="globals/SwolfView" pc="268435820" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="26" parent="globals/SwolfView" pc="268435829" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="29" parent="globals/SwolfView" pc="268435838" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="30" parent="globals/SwolfView" pc="268435850" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="33" parent="globals/SwolfView" pc="268435858" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="36" parent="globals/SwolfView" pc="268435875" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="37" parent="globals/SwolfView" pc="268435884" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="38" parent="globals/SwolfView" pc="268435893" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="39" parent="globals/SwolfView" pc="268435900" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="43" parent="globals/SwolfView" pc="268435907" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="46" parent="globals/SwolfView" pc="268435916" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="50" parent="globals/SwolfView" pc="268435946" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="54" parent="globals/SwolfView" pc="268435976" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="58" parent="globals/SwolfView" pc="268436005" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="59" parent="globals/SwolfView" pc="268436030" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="62" parent="globals/SwolfView" pc="268436053" symbol="onUpdate"/>
 <entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="63" parent="globals/SwolfView" pc="268436062" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="64" parent="globals/SwolfView" pc="268436079" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="65" parent="globals/SwolfView" pc="268436096" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="67" parent="globals/SwolfView" pc="268436113" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="68" parent="globals/SwolfView" pc="268436131" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="69" parent="globals/SwolfView" pc="268436171" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="70" parent="globals/SwolfView" pc="268436194" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="75" parent="globals/SwolfView" pc="268436226" symbol="onUpdate"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="106" parent="globals/SwolfApp" pc="268436253" symbol="calculateDistance"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="107" parent="globals/SwolfApp" pc="268436256" symbol="calculateDistance"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="108" parent="globals/SwolfApp" pc="268436262" symbol="calculateDistance"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="109" parent="globals/SwolfApp" pc="268436281" symbol="calculateDistance"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="110" parent="globals/SwolfApp" pc="268436300" symbol="calculateDistance"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="113" parent="globals/SwolfApp" pc="268436427" symbol="calculateDistance"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="114" parent="globals/SwolfApp" pc="268436475" symbol="calculateDistance"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="93" parent="globals/SwolfApp" pc="268436493" symbol="getCurrentDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="94" parent="globals/SwolfApp" pc="268436496" symbol="getCurrentDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="95" parent="globals/SwolfApp" pc="268436505" symbol="getCurrentDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="98" parent="globals/SwolfApp" pc="268436510" symbol="getCurrentDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="99" parent="globals/SwolfApp" pc="268436518" symbol="getCurrentDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="100" parent="globals/SwolfApp" pc="268436535" symbol="getCurrentDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="103" parent="globals/SwolfApp" pc="268436540" symbol="getCurrentDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="20" lineNum="166" parent="globals/SwolfApp" pc="268436552" symbol="getStrokes"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="20" lineNum="167" parent="globals/SwolfApp" pc="268436554" symbol="getStrokes"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="45" parent="globals/SwolfApp" pc="268436560" symbol="onPosition"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="46" parent="globals/SwolfApp" pc="268436562" symbol="onPosition"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="47" parent="globals/SwolfApp" pc="268436572" symbol="onPosition"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="49" parent="globals/SwolfApp" pc="268436585" symbol="onPosition"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="50" parent="globals/SwolfApp" pc="268436592" symbol="onPosition"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="22" lineNum="122" parent="globals/SwolfApp" pc="268436607" symbol="hasGPSFix"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="22" lineNum="123" parent="globals/SwolfApp" pc="268436609" symbol="hasGPSFix"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="23" lineNum="162" parent="globals/SwolfApp" pc="268436616" symbol="getCurrentHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="23" lineNum="163" parent="globals/SwolfApp" pc="268436618" symbol="getCurrentHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="24" lineNum="23" parent="globals/SwolfApp" pc="268436624" symbol="getCurrentPar"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="24" lineNum="24" parent="globals/SwolfApp" pc="268436626" symbol="getCurrentPar"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="25" lineNum="159" parent="globals/SwolfApp" pc="268436641" symbol="getInitialView"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="25" lineNum="160" parent="globals/SwolfApp" pc="268436643" symbol="getInitialView"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="27" parent="globals/SwolfApp" pc="268436698" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="29" parent="globals/SwolfApp" pc="268436701" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="32" parent="globals/SwolfApp" pc="268436709" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="33" parent="globals/SwolfApp" pc="268436716" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="35" parent="globals/SwolfApp" pc="268436723" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="36" parent="globals/SwolfApp" pc="268436748" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="37" parent="globals/SwolfApp" pc="268436757" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="38" parent="globals/SwolfApp" pc="268436794" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="39" parent="globals/SwolfApp" pc="268436831" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="42" parent="globals/SwolfApp" pc="268436871" symbol="testSparrowsPointGPS"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="174" parent="globals/SwolfApp" pc="268436883" symbol="nextHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="175" parent="globals/SwolfApp" pc="268436885" symbol="nextHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="176" parent="globals/SwolfApp" pc="268436896" symbol="nextHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="177" parent="globals/SwolfApp" pc="268436911" symbol="nextHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="67" parent="globals/SwolfApp" pc="268436923" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="68" parent="globals/SwolfApp" pc="268436926" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="69" parent="globals/SwolfApp" pc="268436944" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="72" parent="globals/SwolfApp" pc="268436948" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="73" parent="globals/SwolfApp" pc="268436956" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="74" parent="globals/SwolfApp" pc="268436973" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="77" parent="globals/SwolfApp" pc="268436977" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="78" parent="globals/SwolfApp" pc="268436990" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="79" parent="globals/SwolfApp" pc="268437003" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="80" parent="globals/SwolfApp" pc="268437009" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="83" parent="globals/SwolfApp" pc="268437016" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="84" parent="globals/SwolfApp" pc="268437058" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="85" parent="globals/SwolfApp" pc="268437100" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="88" parent="globals/SwolfApp" pc="268437142" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="89" parent="globals/SwolfApp" pc="268437159" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="90" parent="globals/SwolfApp" pc="268437176" symbol="calculateDistances"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="29" lineNum="118" parent="globals/SwolfApp" pc="268437194" symbol="onStart"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="29" lineNum="119" parent="globals/SwolfApp" pc="268437196" symbol="onStart"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="30" lineNum="170" parent="globals/SwolfApp" pc="268437225" symbol="addStroke"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="30" lineNum="171" parent="globals/SwolfApp" pc="268437227" symbol="addStroke"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="181" parent="globals/SwolfApp" pc="268437243" symbol="previousHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="182" parent="globals/SwolfApp" pc="268437245" symbol="previousHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="183" parent="globals/SwolfApp" pc="268437256" symbol="previousHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="184" parent="globals/SwolfApp" pc="268437271" symbol="previousHole"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="14" parent="globals/SwolfApp" pc="268437283" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="15" parent="globals/SwolfApp" pc="268437285" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="16" parent="globals/SwolfApp" pc="268437297" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="17" parent="globals/SwolfApp" pc="268437305" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="18" parent="globals/SwolfApp" pc="268437313" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="19" parent="globals/SwolfApp" pc="268437320" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="54" parent="globals/SwolfApp" pc="268437328" symbol="loadSparrowsPoint"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="56" parent="globals/SwolfApp" pc="268437330" symbol="loadSparrowsPoint"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="57" parent="globals/SwolfApp" pc="268437340" symbol="loadSparrowsPoint"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="126" parent="globals/SwolfApp" pc="268437353" symbol="loadSampleCourse"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="128" parent="globals/SwolfApp" pc="268437355" symbol="loadSampleCourse"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="129" parent="globals/SwolfApp" pc="268437365" symbol="loadSampleCourse"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="137" parent="globals/SwolfApp" pc="268437377" symbol="loadSampleCourse"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="145" parent="globals/SwolfApp" pc="268437390" symbol="loadSampleCourse"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="35" lineNum="155" parent="globals/SwolfApp" pc="268437404" symbol="onStop"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="14" parent="globals/Rez/Layouts" pc="268437407" symbol="MainLayout"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="15" parent="globals/Rez/Layouts" pc="268437418" symbol="MainLayout"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="17" parent="globals/Rez/Layouts" pc="268437518" symbol="MainLayout"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="18" parent="globals/Rez/Layouts" pc="268437602" symbol="MainLayout"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="20" parent="globals/Rez/Layouts" pc="268437634" symbol="MainLayout"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="37" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268437649" symbol="&lt;init&gt;"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268437661" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268437663" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268437675" symbol="initialize"/>
-<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268437720" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="64" parent="globals/SwolfView" pc="268436078" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="65" parent="globals/SwolfView" pc="268436095" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="66" parent="globals/SwolfView" pc="268436112" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="68" parent="globals/SwolfView" pc="268436129" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="70" parent="globals/SwolfView" pc="268436147" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="71" parent="globals/SwolfView" pc="268436185" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="72" parent="globals/SwolfView" pc="268436220" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfView.mc" id="17" lineNum="74" parent="globals/SwolfView" pc="268436259" symbol="onUpdate"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="261" parent="globals/SwolfApp" pc="268436292" symbol="calculateDistance"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="262" parent="globals/SwolfApp" pc="268436295" symbol="calculateDistance"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="263" parent="globals/SwolfApp" pc="268436301" symbol="calculateDistance"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="264" parent="globals/SwolfApp" pc="268436320" symbol="calculateDistance"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="265" parent="globals/SwolfApp" pc="268436339" symbol="calculateDistance"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="268" parent="globals/SwolfApp" pc="268436466" symbol="calculateDistance"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="18" lineNum="269" parent="globals/SwolfApp" pc="268436514" symbol="calculateDistance"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="248" parent="globals/SwolfApp" pc="268436532" symbol="getCurrentDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="249" parent="globals/SwolfApp" pc="268436535" symbol="getCurrentDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="250" parent="globals/SwolfApp" pc="268436544" symbol="getCurrentDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="253" parent="globals/SwolfApp" pc="268436549" symbol="getCurrentDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="254" parent="globals/SwolfApp" pc="268436557" symbol="getCurrentDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="255" parent="globals/SwolfApp" pc="268436574" symbol="getCurrentDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="19" lineNum="258" parent="globals/SwolfApp" pc="268436579" symbol="getCurrentDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="20" lineNum="321" parent="globals/SwolfApp" pc="268436591" symbol="getStrokes"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="20" lineNum="322" parent="globals/SwolfApp" pc="268436593" symbol="getStrokes"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="64" parent="globals/SwolfApp" pc="268436599" symbol="onPosition"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="65" parent="globals/SwolfApp" pc="268436601" symbol="onPosition"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="66" parent="globals/SwolfApp" pc="268436611" symbol="onPosition"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="68" parent="globals/SwolfApp" pc="268436624" symbol="onPosition"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="21" lineNum="69" parent="globals/SwolfApp" pc="268436631" symbol="onPosition"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="22" lineNum="277" parent="globals/SwolfApp" pc="268436646" symbol="hasGPSFix"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="22" lineNum="278" parent="globals/SwolfApp" pc="268436648" symbol="hasGPSFix"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="23" lineNum="317" parent="globals/SwolfApp" pc="268436655" symbol="getCurrentHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="23" lineNum="318" parent="globals/SwolfApp" pc="268436657" symbol="getCurrentHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="24" lineNum="23" parent="globals/SwolfApp" pc="268436663" symbol="getCurrentPar"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="24" lineNum="24" parent="globals/SwolfApp" pc="268436665" symbol="getCurrentPar"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="25" lineNum="314" parent="globals/SwolfApp" pc="268436680" symbol="getInitialView"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="25" lineNum="315" parent="globals/SwolfApp" pc="268436682" symbol="getInitialView"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="329" parent="globals/SwolfApp" pc="268436737" symbol="nextHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="330" parent="globals/SwolfApp" pc="268436739" symbol="nextHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="331" parent="globals/SwolfApp" pc="268436750" symbol="nextHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="26" lineNum="332" parent="globals/SwolfApp" pc="268436765" symbol="nextHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="222" parent="globals/SwolfApp" pc="268436777" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="223" parent="globals/SwolfApp" pc="268436780" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="224" parent="globals/SwolfApp" pc="268436798" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="227" parent="globals/SwolfApp" pc="268436802" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="228" parent="globals/SwolfApp" pc="268436810" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="229" parent="globals/SwolfApp" pc="268436827" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="232" parent="globals/SwolfApp" pc="268436831" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="233" parent="globals/SwolfApp" pc="268436844" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="234" parent="globals/SwolfApp" pc="268436857" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="235" parent="globals/SwolfApp" pc="268436863" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="238" parent="globals/SwolfApp" pc="268436870" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="239" parent="globals/SwolfApp" pc="268436912" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="240" parent="globals/SwolfApp" pc="268436954" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="243" parent="globals/SwolfApp" pc="268436996" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="244" parent="globals/SwolfApp" pc="268437013" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="27" lineNum="245" parent="globals/SwolfApp" pc="268437030" symbol="calculateDistances"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="273" parent="globals/SwolfApp" pc="268437048" symbol="onStart"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="28" lineNum="274" parent="globals/SwolfApp" pc="268437050" symbol="onStart"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="29" lineNum="325" parent="globals/SwolfApp" pc="268437079" symbol="addStroke"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="29" lineNum="326" parent="globals/SwolfApp" pc="268437081" symbol="addStroke"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="30" lineNum="336" parent="globals/SwolfApp" pc="268437097" symbol="previousHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="30" lineNum="337" parent="globals/SwolfApp" pc="268437099" symbol="previousHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="30" lineNum="338" parent="globals/SwolfApp" pc="268437110" symbol="previousHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="30" lineNum="339" parent="globals/SwolfApp" pc="268437125" symbol="previousHole"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="27" parent="globals/SwolfApp" pc="268437137" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="29" parent="globals/SwolfApp" pc="268437140" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="30" parent="globals/SwolfApp" pc="268437166" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="34" parent="globals/SwolfApp" pc="268437170" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="35" parent="globals/SwolfApp" pc="268437178" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="37" parent="globals/SwolfApp" pc="268437185" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="38" parent="globals/SwolfApp" pc="268437200" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="41" parent="globals/SwolfApp" pc="268437210" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="42" parent="globals/SwolfApp" pc="268437226" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="45" parent="globals/SwolfApp" pc="268437242" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="48" parent="globals/SwolfApp" pc="268437250" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="50" parent="globals/SwolfApp" pc="268437292" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="52" parent="globals/SwolfApp" pc="268437334" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="56" parent="globals/SwolfApp" pc="268437376" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="57" parent="globals/SwolfApp" pc="268437393" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="58" parent="globals/SwolfApp" pc="268437410" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="31" lineNum="61" parent="globals/SwolfApp" pc="268437430" symbol="testAllHoles"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="14" parent="globals/SwolfApp" pc="268437442" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="15" parent="globals/SwolfApp" pc="268437444" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="16" parent="globals/SwolfApp" pc="268437456" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="17" parent="globals/SwolfApp" pc="268437464" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="18" parent="globals/SwolfApp" pc="268437472" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="32" lineNum="19" parent="globals/SwolfApp" pc="268437479" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="73" parent="globals/SwolfApp" pc="268437487" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="75" parent="globals/SwolfApp" pc="268437489" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="78" parent="globals/SwolfApp" pc="268437499" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="86" parent="globals/SwolfApp" pc="268437511" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="94" parent="globals/SwolfApp" pc="268437524" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="102" parent="globals/SwolfApp" pc="268437537" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="110" parent="globals/SwolfApp" pc="268437550" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="118" parent="globals/SwolfApp" pc="268437563" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="126" parent="globals/SwolfApp" pc="268437576" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="134" parent="globals/SwolfApp" pc="268437589" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="142" parent="globals/SwolfApp" pc="268437602" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="150" parent="globals/SwolfApp" pc="268437615" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="158" parent="globals/SwolfApp" pc="268437628" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="166" parent="globals/SwolfApp" pc="268437641" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="174" parent="globals/SwolfApp" pc="268437654" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="182" parent="globals/SwolfApp" pc="268437667" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="190" parent="globals/SwolfApp" pc="268437680" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="198" parent="globals/SwolfApp" pc="268437693" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="206" parent="globals/SwolfApp" pc="268437706" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="33" lineNum="214" parent="globals/SwolfApp" pc="268437719" symbol="loadSparrowsPoint"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="281" parent="globals/SwolfApp" pc="268437733" symbol="loadSampleCourse"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="283" parent="globals/SwolfApp" pc="268437735" symbol="loadSampleCourse"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="284" parent="globals/SwolfApp" pc="268437745" symbol="loadSampleCourse"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="292" parent="globals/SwolfApp" pc="268437757" symbol="loadSampleCourse"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="34" lineNum="300" parent="globals/SwolfApp" pc="268437770" symbol="loadSampleCourse"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfApp.mc" id="35" lineNum="310" parent="globals/SwolfApp" pc="268437784" symbol="onStop"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="14" parent="globals/Rez/Layouts" pc="268437787" symbol="MainLayout"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="15" parent="globals/Rez/Layouts" pc="268437798" symbol="MainLayout"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="17" parent="globals/Rez/Layouts" pc="268437898" symbol="MainLayout"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="18" parent="globals/Rez/Layouts" pc="268437982" symbol="MainLayout"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="36" lineNum="20" parent="globals/Rez/Layouts" pc="268438014" symbol="MainLayout"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="37" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268438029" symbol="&lt;init&gt;"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268438041" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268438043" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268438055" symbol="initialize"/>
+<entry filename="/Users/agnieszkaboron/Desktop/Swolf/Swolf/bin/gen/006-B4315-00/source/Rez.mcgen" id="38" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268438100" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -173,7 +199,6 @@
 <entry field="true" id="36" symbol="AppName"/>
 <entry id="10" object="true" symbol="SwolfView"/>
 <entry id="6" module="true" symbol="globals/Rez/Strings"/>
-<entry id="31" method="true" symbol="testSparrowsPointGPS"/>
 <entry id="8389345" symbol="rezId"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="23" method="true" symbol="getCurrentPar"/>
@@ -208,6 +233,7 @@
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry field="true" id="17" symbol="&lt;globals/SwolfApp/&lt;&gt;_strokes&gt;"/>
+<entry id="31" method="true" symbol="testAllHoles"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="30" method="true" symbol="previousHole"/>
 <entry field="true" id="32" symbol="LauncherIcon"/>
@@ -235,51 +261,55 @@
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268435615" name="item" stackId="1" startPc="268435549"/>
-<entry endPc="268435662" name="app" stackId="1" startPc="268435634"/>
-<entry endPc="268435709" name="app" stackId="1" startPc="268435681"/>
-<entry endPc="268435741" name="app" stackId="1" startPc="268435713"/>
-<entry arg="true" endPc="268435777" name="dc" stackId="1" startPc="268435742"/>
-<entry arg="true" endPc="268436252" name="dc" stackId="1" startPc="268435793"/>
-<entry endPc="268436251" name="app" stackId="2" startPc="268435796"/>
-<entry endPc="268436251" name="currentHole" stackId="3" startPc="268435796"/>
-<entry endPc="268436251" name="strokes" stackId="4" startPc="268435796"/>
-<entry endPc="268436251" name="width" stackId="5" startPc="268435796"/>
-<entry endPc="268436251" name="height" stackId="6" startPc="268435796"/>
-<entry endPc="268436251" name="centerX" stackId="7" startPc="268435796"/>
-<entry endPc="268436251" name="centerY" stackId="8" startPc="268435796"/>
-<entry endPc="268436251" name="currentPar" stackId="9" startPc="268435796"/>
-<entry endPc="268436251" name="hasGPS" stackId="10" startPc="268435796"/>
-<entry endPc="268436251" name="distances" stackId="11" startPc="268435796"/>
-<entry endPc="268436222" name="front" stackId="12" startPc="268436062"/>
-<entry endPc="268436222" name="center" stackId="13" startPc="268436062"/>
-<entry endPc="268436222" name="back" stackId="14" startPc="268436062"/>
-<entry endPc="268436219" name="distText" stackId="15" startPc="268436131"/>
-<entry arg="true" endPc="268436492" name="lat1" stackId="1" startPc="268436253"/>
-<entry arg="true" endPc="268436492" name="lon1" stackId="2" startPc="268436253"/>
-<entry arg="true" endPc="268436492" name="lat2" stackId="3" startPc="268436253"/>
-<entry arg="true" endPc="268436492" name="lon2" stackId="4" startPc="268436253"/>
-<entry endPc="268436492" name="R" stackId="5" startPc="268436256"/>
-<entry endPc="268436492" name="dLat" stackId="6" startPc="268436256"/>
-<entry endPc="268436492" name="dLon" stackId="7" startPc="268436256"/>
-<entry endPc="268436492" name="a" stackId="8" startPc="268436256"/>
-<entry endPc="268436492" name="c" stackId="9" startPc="268436256"/>
-<entry endPc="268436551" name="currentHole" stackId="1" startPc="268436496"/>
-<entry arg="true" endPc="268436606" name="info" stackId="1" startPc="268436560"/>
-<entry endPc="268436881" name="teeBoxLat" stackId="1" startPc="268436701"/>
-<entry endPc="268436881" name="teeBoxLon" stackId="2" startPc="268436701"/>
-<entry endPc="268436867" name="holeData" stackId="3" startPc="268436748"/>
-<entry endPc="268437192" name="currentHole" stackId="1" startPc="268436926"/>
-<entry endPc="268437192" name="holeData" stackId="2" startPc="268436926"/>
-<entry endPc="268437192" name="myPos" stackId="3" startPc="268436926"/>
-<entry endPc="268437192" name="myLat" stackId="4" startPc="268436926"/>
-<entry endPc="268437192" name="myLon" stackId="5" startPc="268436926"/>
-<entry endPc="268437192" name="frontDist" stackId="6" startPc="268436926"/>
-<entry endPc="268437192" name="centerDist" stackId="7" startPc="268436926"/>
-<entry endPc="268437192" name="backDist" stackId="8" startPc="268436926"/>
-<entry arg="true" endPc="268437224" name="state" stackId="1" startPc="268437194"/>
-<entry arg="true" endPc="268437648" name="dc" stackId="1" startPc="268437407"/>
-<entry endPc="268437648" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268437418"/>
-<entry endPc="268437648" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437418"/>
+<entry endPc="268435670" name="app" stackId="1" startPc="268435634"/>
+<entry endPc="268435717" name="app" stackId="1" startPc="268435689"/>
+<entry endPc="268435757" name="app" stackId="1" startPc="268435721"/>
+<entry arg="true" endPc="268435793" name="dc" stackId="1" startPc="268435758"/>
+<entry arg="true" endPc="268436291" name="dc" stackId="1" startPc="268435809"/>
+<entry endPc="268436290" name="app" stackId="2" startPc="268435812"/>
+<entry endPc="268436290" name="currentHole" stackId="3" startPc="268435812"/>
+<entry endPc="268436290" name="strokes" stackId="4" startPc="268435812"/>
+<entry endPc="268436290" name="width" stackId="5" startPc="268435812"/>
+<entry endPc="268436290" name="height" stackId="6" startPc="268435812"/>
+<entry endPc="268436290" name="centerX" stackId="7" startPc="268435812"/>
+<entry endPc="268436290" name="centerY" stackId="8" startPc="268435812"/>
+<entry endPc="268436290" name="currentPar" stackId="9" startPc="268435812"/>
+<entry endPc="268436290" name="hasGPS" stackId="10" startPc="268435812"/>
+<entry endPc="268436290" name="distances" stackId="11" startPc="268435812"/>
+<entry endPc="268436287" name="front" stackId="12" startPc="268436078"/>
+<entry endPc="268436287" name="center" stackId="13" startPc="268436078"/>
+<entry endPc="268436287" name="back" stackId="14" startPc="268436078"/>
+<entry arg="true" endPc="268436531" name="lat1" stackId="1" startPc="268436292"/>
+<entry arg="true" endPc="268436531" name="lon1" stackId="2" startPc="268436292"/>
+<entry arg="true" endPc="268436531" name="lat2" stackId="3" startPc="268436292"/>
+<entry arg="true" endPc="268436531" name="lon2" stackId="4" startPc="268436292"/>
+<entry endPc="268436531" name="R" stackId="5" startPc="268436295"/>
+<entry endPc="268436531" name="dLat" stackId="6" startPc="268436295"/>
+<entry endPc="268436531" name="dLon" stackId="7" startPc="268436295"/>
+<entry endPc="268436531" name="a" stackId="8" startPc="268436295"/>
+<entry endPc="268436531" name="c" stackId="9" startPc="268436295"/>
+<entry endPc="268436590" name="currentHole" stackId="1" startPc="268436535"/>
+<entry arg="true" endPc="268436645" name="info" stackId="1" startPc="268436599"/>
+<entry endPc="268437046" name="currentHole" stackId="1" startPc="268436780"/>
+<entry endPc="268437046" name="holeData" stackId="2" startPc="268436780"/>
+<entry endPc="268437046" name="myPos" stackId="3" startPc="268436780"/>
+<entry endPc="268437046" name="myLat" stackId="4" startPc="268436780"/>
+<entry endPc="268437046" name="myLon" stackId="5" startPc="268436780"/>
+<entry endPc="268437046" name="frontDist" stackId="6" startPc="268436780"/>
+<entry endPc="268437046" name="centerDist" stackId="7" startPc="268436780"/>
+<entry endPc="268437046" name="backDist" stackId="8" startPc="268436780"/>
+<entry arg="true" endPc="268437078" name="state" stackId="1" startPc="268437048"/>
+<entry endPc="268437440" name="currentHole" stackId="1" startPc="268437140"/>
+<entry endPc="268437440" name="holeIndex" stackId="2" startPc="268437140"/>
+<entry endPc="268437426" name="holeData" stackId="3" startPc="268437200"/>
+<entry endPc="268437426" name="teeBoxLat" stackId="4" startPc="268437200"/>
+<entry endPc="268437426" name="teeBoxLon" stackId="5" startPc="268437200"/>
+<entry endPc="268437426" name="frontDist" stackId="6" startPc="268437200"/>
+<entry endPc="268437426" name="centerDist" stackId="7" startPc="268437200"/>
+<entry endPc="268437426" name="backDist" stackId="8" startPc="268437200"/>
+<entry arg="true" endPc="268438028" name="dc" stackId="1" startPc="268437787"/>
+<entry endPc="268438028" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268437798"/>
+<entry endPc="268438028" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437798"/>
 </localVars>
 <deviceInfo deviceVersion="0ed082a335bbf00c12e5da810e92d4f89288090c" partNumber="006-B4315-00"/>
 <annotations>
@@ -329,16 +359,16 @@
 <functionEntry accessMode="public" endPc="268435630" name="initialize" parent="SwolfMenuDelegate" startPc="268435616">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435662" name="onPreviousPage" parent="SwolfDelegate" startPc="268435631">
+<functionEntry accessMode="public" endPc="268435670" name="onPreviousPage" parent="SwolfDelegate" startPc="268435631">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435677" name="initialize" parent="SwolfDelegate" startPc="268435663">
+<functionEntry accessMode="public" endPc="268435685" name="initialize" parent="SwolfDelegate" startPc="268435671">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435709" name="onSelect" parent="SwolfDelegate" startPc="268435678">
+<functionEntry accessMode="public" endPc="268435717" name="onSelect" parent="SwolfDelegate" startPc="268435686">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435741" name="onNextPage" parent="SwolfDelegate" startPc="268435710">
+<functionEntry accessMode="public" endPc="268435757" name="onNextPage" parent="SwolfDelegate" startPc="268435718">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -356,89 +386,89 @@
 <functionEntry accessMode="public" name="onShow" parent="SwolfView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435777" name="onLayout" parent="SwolfView" startPc="268435742">
+<functionEntry accessMode="public" endPc="268435793" name="onLayout" parent="SwolfView" startPc="268435758">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435792" name="initialize" parent="SwolfView" startPc="268435778">
+<functionEntry accessMode="public" endPc="268435808" name="initialize" parent="SwolfView" startPc="268435794">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="SwolfView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436252" name="onUpdate" parent="SwolfView" startPc="268435793">
+<functionEntry accessMode="public" endPc="268436291" name="onUpdate" parent="SwolfView" startPc="268435809">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436492" name="calculateDistance" parent="SwolfApp" startPc="268436253">
+<functionEntry accessMode="public" endPc="268436531" name="calculateDistance" parent="SwolfApp" startPc="268436292">
 <param id="lat1"/>
 <param id="lon1"/>
 <param id="lat2"/>
 <param id="lon2"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436551" name="getCurrentDistances" parent="SwolfApp" startPc="268436493">
+<functionEntry accessMode="public" endPc="268436590" name="getCurrentDistances" parent="SwolfApp" startPc="268436532">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436559" name="getStrokes" parent="SwolfApp" startPc="268436552">
+<functionEntry accessMode="public" endPc="268436598" name="getStrokes" parent="SwolfApp" startPc="268436591">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436606" name="onPosition" parent="SwolfApp" startPc="268436560">
+<functionEntry accessMode="public" endPc="268436645" name="onPosition" parent="SwolfApp" startPc="268436599">
 <param id="info"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436615" name="hasGPSFix" parent="SwolfApp" startPc="268436607">
+<functionEntry accessMode="public" endPc="268436654" name="hasGPSFix" parent="SwolfApp" startPc="268436646">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436623" name="getCurrentHole" parent="SwolfApp" startPc="268436616">
+<functionEntry accessMode="public" endPc="268436662" name="getCurrentHole" parent="SwolfApp" startPc="268436655">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436640" name="getCurrentPar" parent="SwolfApp" startPc="268436624">
+<functionEntry accessMode="public" endPc="268436679" name="getCurrentPar" parent="SwolfApp" startPc="268436663">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436697" name="getInitialView" parent="SwolfApp" startPc="268436641">
+<functionEntry accessMode="public" endPc="268436736" name="getInitialView" parent="SwolfApp" startPc="268436680">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436882" name="testSparrowsPointGPS" parent="SwolfApp" startPc="268436698">
+<functionEntry accessMode="public" endPc="268436776" name="nextHole" parent="SwolfApp" startPc="268436737">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436922" name="nextHole" parent="SwolfApp" startPc="268436883">
+<functionEntry accessMode="public" endPc="268437047" name="calculateDistances" parent="SwolfApp" startPc="268436777">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437193" name="calculateDistances" parent="SwolfApp" startPc="268436923">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437224" name="onStart" parent="SwolfApp" startPc="268437194">
+<functionEntry accessMode="public" endPc="268437078" name="onStart" parent="SwolfApp" startPc="268437048">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437242" name="addStroke" parent="SwolfApp" startPc="268437225">
+<functionEntry accessMode="public" endPc="268437096" name="addStroke" parent="SwolfApp" startPc="268437079">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437282" name="previousHole" parent="SwolfApp" startPc="268437243">
+<functionEntry accessMode="public" endPc="268437136" name="previousHole" parent="SwolfApp" startPc="268437097">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437327" name="initialize" parent="SwolfApp" startPc="268437283">
+<functionEntry accessMode="public" endPc="268437441" name="testAllHoles" parent="SwolfApp" startPc="268437137">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437352" name="loadSparrowsPoint" parent="SwolfApp" startPc="268437328">
+<functionEntry accessMode="public" endPc="268437486" name="initialize" parent="SwolfApp" startPc="268437442">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437403" name="loadSampleCourse" parent="SwolfApp" startPc="268437353">
+<functionEntry accessMode="public" endPc="268437732" name="loadSparrowsPoint" parent="SwolfApp" startPc="268437487">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437406" name="onStop" parent="SwolfApp" startPc="268437404">
+<functionEntry accessMode="public" endPc="268437783" name="loadSampleCourse" parent="SwolfApp" startPc="268437733">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437786" name="onStop" parent="SwolfApp" startPc="268437784">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437648" name="MainLayout" parent="Layouts" startPc="268437407">
+<functionEntry accessMode="public" endPc="268438028" name="MainLayout" parent="Layouts" startPc="268437787">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437660" name="&lt;init&gt;" parent="MainMenu" startPc="268437649">
+<functionEntry accessMode="public" endPc="268438040" name="&lt;init&gt;" parent="MainMenu" startPc="268438029">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437765" name="initialize" parent="MainMenu" startPc="268437661">
+<functionEntry accessMode="public" endPc="268438145" name="initialize" parent="MainMenu" startPc="268438041">
 <documentation/>
 </functionEntry>
 </functions>

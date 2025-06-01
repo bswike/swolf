@@ -9,14 +9,14 @@ class SwolfApp extends Application.AppBase {
     private var _strokes = 0;
     private var _currentPosition;
     private var _courseData;
-    private var _parValues as Array<Number> = [4, 4, 3, 5, 4, 3, 4, 4, 5, 4, 3, 4, 5, 4, 3, 4, 4, 5];
+    private var _parValues as Array<Number> = [4,4,4,3,3,5,4,4,5,4,4,4,4,5,3,4,4,4];
 
     function initialize() {
         AppBase.initialize();
             _currentPosition = null;
             _courseData = null;
             loadSparrowsPoint();
-            testSparrowsPointGPS();
+            testAllHoles();
             //loadSampleCourse();
     }
 
@@ -24,19 +24,38 @@ class SwolfApp extends Application.AppBase {
     return _parValues[_currentHole - 1]; // -1 because arrays are 0-indexed
 }
 
-function testSparrowsPointGPS() {
-    // Just set a flag that we have GPS and manually set coordinates
-    _currentPosition = true; // Just to trigger hasGPSFix()
+function testAllHoles() {
+    // Test all 18 holes by simulating being on each tee box
+    if (_courseData == null || _courseData.size() < 18) {
+        return;
+    }
     
-    // Calculate distances manually for testing
-    var teeBoxLat = 39.254606;
-    var teeBoxLon = -76.475647;
+    // Get current hole to test
+    var currentHole = getCurrentHole();
+    var holeIndex = currentHole - 1;
     
-    if (_courseData != null && _courseData.size() > 0) {
-        var holeData = _courseData[0];
-        holeData.put("distToFront", calculateDistance(teeBoxLat, teeBoxLon, 39.253351, -76.472537));
-        holeData.put("distToCenter", calculateDistance(teeBoxLat, teeBoxLon, 39.253238, -76.472436));
-        holeData.put("distToBack", calculateDistance(teeBoxLat, teeBoxLon, 39.253131, -76.472373));
+    if (holeIndex >= 0 && holeIndex < 18) {
+        var holeData = _courseData[holeIndex];
+        
+        // Simulate standing on the tee box of current hole
+        var teeBoxLat = holeData.get("teeBoxLat");
+        var teeBoxLon = holeData.get("teeBoxLon");
+        
+        // Set GPS position to tee box
+        _currentPosition = true; // Just to trigger hasGPSFix()
+        
+        // Calculate distances from tee box to green
+        var frontDist = calculateDistance(teeBoxLat, teeBoxLon, 
+                                        holeData.get("frontLat"), holeData.get("frontLon"));
+        var centerDist = calculateDistance(teeBoxLat, teeBoxLon, 
+                                         holeData.get("centerLat"), holeData.get("centerLon"));
+        var backDist = calculateDistance(teeBoxLat, teeBoxLon, 
+                                       holeData.get("backLat"), holeData.get("backLon"));
+        
+        // Store calculated distances
+        holeData.put("distToFront", frontDist);
+        holeData.put("distToCenter", centerDist);
+        holeData.put("distToBack", backDist);
     }
     
     WatchUi.requestUpdate();
@@ -52,15 +71,151 @@ function onPosition(info as Position.Info) as Void {
 }
 
 function loadSparrowsPoint() {
-    // Real hole #1 at Sparrows Point Country Club
-    _courseData = new [1]; // Just hole 1 for now
+    // All 18 holes at Sparrows Point Country Club
+    _courseData = new [18];
+    
+    // Hole #1 (Par 4)
     _courseData[0] = {
-        "frontLat" => 39.253351,   // Green front
-        "frontLon" => -76.472537,
-        "centerLat" => 39.253238,  // Green center  
-        "centerLon" => -76.472436,
-        "backLat" => 39.253131,    // Green back
-        "backLon" => -76.472373
+        "teeBoxLat" => 39.254606, "teeBoxLon" => -76.475647,
+        "frontLat" => 39.253351, "frontLon" => -76.472537,
+        "centerLat" => 39.253238, "centerLon" => -76.472436,
+        "backLat" => 39.253131, "backLon" => -76.472373
+    };
+    
+    // Hole #2 (Par 4)
+    _courseData[1] = {
+        "teeBoxLat" => 39.252825, "teeBoxLon" => -76.472589,
+        "frontLat" => 39.250685, "frontLon" => -76.470124,
+        "centerLat" => 39.250582, "centerLon" => -76.470071,
+        "backLat" => 39.250495, "backLon" => -76.470017
+    };
+    
+    // Hole #3 (Par 4)
+    _courseData[2] = {
+        "teeBoxLat" => 39.250836, "teeBoxLon" => -76.469373,
+        "frontLat" => 39.253295, "frontLon" => -76.471700,
+        "centerLat" => 39.253387, "centerLon" => -76.471784,
+        "backLat" => 39.253464, "backLon" => -76.471880
+    };
+    
+    // Hole #4 (Par 3)
+    _courseData[3] = {
+        "teeBoxLat" => 39.253673, "teeBoxLon" => -76.471461,
+        "frontLat" => 39.252700, "frontLon" => -76.470112,
+        "centerLat" => 39.252630, "centerLon" => -76.470005,
+        "backLat" => 39.252565, "backLon" => -76.469909
+    };
+    
+    // Hole #5 (Par 3)
+    _courseData[4] = {
+        "teeBoxLat" => 39.251642, "teeBoxLon" => -76.468976,
+        "frontLat" => 39.250189, "frontLon" => -76.468818,
+        "centerLat" => 39.250057, "centerLon" => -76.468784,
+        "backLat" => 39.249947, "backLon" => -76.468779
+    };
+    
+    // Hole #6 (Par 5)
+    _courseData[5] = {
+        "teeBoxLat" => 39.249353, "teeBoxLon" => -76.469560,
+        "frontLat" => 39.248465, "frontLon" => -76.474230,
+        "centerLat" => 39.248371, "centerLon" => -76.474225,
+        "backLat" => 39.248295, "backLon" => -76.474274
+    };
+    
+    // Hole #7 (Par 4)
+    _courseData[6] = {
+        "teeBoxLat" => 39.248032, "teeBoxLon" => -76.473226,
+        "frontLat" => 39.248768, "frontLon" => -76.470503,
+        "centerLat" => 39.248840, "centerLon" => -76.470383,
+        "backLat" => 39.248912, "backLon" => -76.470299
+    };
+    
+    // Hole #8 (Par 4)
+    _courseData[7] = {
+        "teeBoxLat" => 39.248686, "teeBoxLon" => -76.469727,
+        "frontLat" => 39.245786, "frontLon" => -76.468934,
+        "centerLat" => 39.245701, "centerLon" => -76.468853,
+        "backLat" => 39.245595, "backLon" => -76.468815
+    };
+    
+    // Hole #9 (Par 5)
+    _courseData[8] = {
+        "teeBoxLat" => 39.245997, "teeBoxLon" => -76.469590,
+        "frontLat" => 39.247382, "frontLon" => -76.473664,
+        "centerLat" => 39.247352, "centerLon" => -76.473787,
+        "backLat" => 39.247333, "backLon" => -76.473915
+    };
+    
+    // Hole #10 (Par 4)
+    _courseData[9] = {
+        "teeBoxLat" => 39.246952, "teeBoxLon" => -76.473073,
+        "frontLat" => 39.245382, "frontLon" => -76.469628,
+        "centerLat" => 39.245296, "centerLon" => -76.469511,
+        "backLat" => 39.245215, "backLon" => -76.469393
+    };
+    
+    // Hole #11 (Par 4)
+    _courseData[10] = {
+        "teeBoxLat" => 39.246208, "teeBoxLon" => -76.468355,
+        "frontLat" => 39.249222, "frontLon" => -76.468744,
+        "centerLat" => 39.249361, "centerLon" => -76.468756,
+        "backLat" => 39.249476, "backLon" => -76.468804
+    };
+    
+    // Hole #12 (Par 4)
+    _courseData[11] = {
+        "teeBoxLat" => 39.249682, "teeBoxLon" => -76.469498,
+        "frontLat" => 39.249698, "frontLon" => -76.473130,
+        "centerLat" => 39.249697, "centerLon" => -76.473344,
+        "backLat" => 39.249685, "backLon" => -76.473526
+    };
+    
+    // Hole #13 (Par 4)
+    _courseData[12] = {
+        "teeBoxLat" => 39.249890, "teeBoxLon" => -76.474312,
+        "frontLat" => 39.251904, "frontLon" => -76.477597,
+        "centerLat" => 39.251990, "centerLon" => -76.477690,
+        "backLat" => 39.252044, "backLon" => -76.477790
+    };
+    
+    // Hole #14 (Par 5)
+    _courseData[13] = {
+        "teeBoxLat" => 39.251398, "teeBoxLon" => -76.477874,
+        "frontLat" => 39.248829669335215, "frontLon" => -76.47450751730452,
+        "centerLat" => 39.24874006657675, "centerLon" => -76.47457999194881,
+        "backLat" => 39.24865932553149, "backLon" => -76.47456727709894
+    };
+    
+    // Hole #15 (Par 3)
+    _courseData[14] = {
+        "teeBoxLat" => 39.24889957910326, "teeBoxLon" => -76.47552979127963,
+        "frontLat" => 39.249627227317475, "frontLon" => -76.47674533095854,
+        "centerLat" => 39.24971485967715, "centerLon" => -76.47690045212705,
+        "backLat" => 39.249790676351274, "backLon" => -76.47701107132299
+    };
+    
+    // Hole #16 (Par 4)
+    _courseData[15] = {
+        "teeBoxLat" => 39.249589811224446, "teeBoxLon" => -76.47750313605175,
+        "frontLat" => 39.25220211441712, "frontLon" => -76.47836586637102,
+        "centerLat" => 39.252323219831624, "centerLon" => -76.47827686242188,
+        "backLat" => 39.25243250990421, "backLon" => -76.47822981747733
+    };
+    
+    // Hole #17 (Par 4)
+    _courseData[16] = {
+        "teeBoxLat" => 39.25240986423125, "teeBoxLon" => -76.47729654744356,
+        "frontLat" => 39.25114616688508, "frontLon" => -76.47451681375685,
+        "centerLat" => 39.25107921320021, "centerLon" => -76.47436423555831,
+        "backLat" => 39.25102112098063, "backLon" => -76.4742510733944
+    };
+    
+    // Hole #18 (Par 4)
+    _courseData[17] = {
+        "teeBoxLat" => 39.25145977222735, "teeBoxLon" => -76.47426288795727,
+        "frontLat" => 39.25399188139234, "frontLon" => -76.47519206141156,
+        "centerLat" => 39.25407706527352, "centerLon" => -76.47538762980079,
+        "backLat" => 39.254124389607234, "backLon" => -76.47554652911705
     };
 }
 

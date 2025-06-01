@@ -15,19 +15,21 @@ class SwolfDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
-    function onNextPage() as Boolean {
-        // Next hole (UP button)
-        var app = getApp();
-        app.previousHole();
-        WatchUi.requestUpdate();
-        return true;
-    }
+function onNextPage() {
+    // Next hole (UP button)
+    var app = getApp();
+    app.previousHole(); // Your UP/DOWN are swapped
+    app.testAllHoles(); // Recalculate for new hole
+    WatchUi.requestUpdate();
+    return true;
+}
 
-    function onPreviousPage() as Boolean {
-        // Previous hole (DOWN button)
-        var app = getApp();
-        app.nextHole();
-        WatchUi.requestUpdate();
-        return true;
-    }
+function onPreviousPage() {
+    // Previous hole (DOWN button)
+    var app = getApp();
+    app.nextHole(); // Your UP/DOWN are swapped
+    app.testAllHoles(); // Recalculate for new hole
+    WatchUi.requestUpdate();
+    return true;
+}
 }
