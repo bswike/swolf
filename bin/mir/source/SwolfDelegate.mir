@@ -2,127 +2,131 @@
 import Toybox.Lang;
 [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 4; @symbol_classdef = [SwolfDelegate,4,6,19]; @symbol_extends<0> = [WatchUi,4,28,35]; @symbol_extends<1> = [BehaviorDelegate,4,36,52]; ]
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Application,3,13,24]; @symbol_usingAlias = [App,3,28,31]; ]
+using Toybox.Application as :App;
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 5; @symbol_classdef = [SwolfDelegate,5,6,19]; @symbol_extends<0> = [WatchUi,5,28,35]; @symbol_extends<1> = [BehaviorDelegate,5,36,52]; ]
 class SwolfDelegate extends WatchUi.BehaviorDelegate {
-    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 4; ]
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 4; ]
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
     function initialize() as Void {
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_6_26_8_4_start:
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 7 8 ]
-        symbol [ BehaviorDelegate %tmp.2 7 8 24 ];
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_7_26_9_4_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
         %tmp.2 = getv ? :BehaviorDelegate;
-        symbol [ initialize %tmp.3 7 25 35 ];
+        symbol [ initialize %tmp.3 8 25 35 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_6_26_8_4_stop:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_7_26_9_4_stop:
     }
-    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 10; @symbol_functiondef = [onSelect,10,13,21]; @symbol_return<0> = [Boolean,10,27,34]; ]
-    function onSelect() as Boolean {
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_35_16_4_start:
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 12 8 ]
-        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_35_16_4_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_35_16_4_stop" ]
-        %app.1 = local;
-        symbol [ app %app.1 12 12 15 ];
-        %tmp.1 = self;
-        symbol [ getApp %tmp.2 12 18 24 ];
-        %tmp.2 = getv function %tmp.1 :getApp;
-        %tmp.3 = invoke %tmp.1 %tmp.2();
-        lputv %app.1 %tmp.3;
-        symbol [ app %app.1 12 12 15 ];
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 13 8 ]
-        %tmp.4 = lgetv %app.1;
-        symbol [ app %tmp.4 13 8 11 ];
-        symbol [ addStroke %tmp.5 13 12 21 ];
-        %tmp.5 = getv function %tmp.4 :addStroke;
-        invoke %tmp.4 %tmp.5();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 14 8 ]
-        symbol [ WatchUi %tmp.6 14 8 15 ];
-        %tmp.6 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.7 14 16 29 ];
-        %tmp.7 = getv function %tmp.6 :requestUpdate;
-        invoke %tmp.6 %tmp.7();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 15 8 ]
-        %tmp.8 = true;
-        ret %tmp.8;
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_35_16_4_stop:
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 10; @symbol_functiondef = [onSelect,10,9,17]; ]
+    function onSelect() {
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_20_15_0_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 12 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_20_15_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_20_15_0_stop" ]
+        %golfMenu.1 = local;
+        symbol [ golfMenu %golfMenu.1 12 8 16 ];
+        symbol [ GolfMenu %tmp.4 12 23 31 ];
+        %tmp.4 = getv ? :GolfMenu;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %golfMenu.1 %tmp.1;
+        symbol [ golfMenu %golfMenu.1 12 8 16 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 13 4 ]
+        symbol [ WatchUi %tmp.5 13 4 11 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.6 13 12 20 ];
+        %tmp.6 = getv function %tmp.5 :pushView;
+        %tmp.7 = lgetv %golfMenu.1;
+        symbol [ golfMenu %tmp.7 13 21 29 ];
+        symbol [ GolfMenuDelegate %tmp.11 13 35 51 ];
+        %tmp.11 = getv ? :GolfMenuDelegate;
+        %tmp.8 = newc %tmp.11 ();
+        symbol [ WatchUi %tmp.12 13 55 62 ];
+        %tmp.12 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.13 13 63 71 ];
+        %tmp.13 = getv %tmp.12 :SLIDE_UP;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.8, %tmp.13);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 14 4 ]
+        %tmp.14 = true;
+        ret %tmp.14;
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_10_20_15_0_stop:
     }
-    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 18; @symbol_functiondef = [onNextPage,18,9,19]; ]
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 17; @symbol_functiondef = [onNextPage,17,9,19]; ]
     function onNextPage() {
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_18_22_25_0_start:
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 20 4 ]
-        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_18_22_25_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_18_22_25_0_stop" ]
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_17_22_24_0_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 19 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_17_22_24_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_17_22_24_0_stop" ]
         %app.1 = local;
-        symbol [ app %app.1 20 8 11 ];
+        symbol [ app %app.1 19 8 11 ];
         %tmp.1 = self;
-        symbol [ getApp %tmp.2 20 14 20 ];
+        symbol [ getApp %tmp.2 19 14 20 ];
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %app.1 %tmp.3;
-        symbol [ app %app.1 20 8 11 ];
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 21 4 ]
+        symbol [ app %app.1 19 8 11 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 20 4 ]
         %tmp.4 = lgetv %app.1;
-        symbol [ app %tmp.4 21 4 7 ];
-        symbol [ previousHole %tmp.5 21 8 20 ];
+        symbol [ app %tmp.4 20 4 7 ];
+        symbol [ previousHole %tmp.5 20 8 20 ];
         %tmp.5 = getv function %tmp.4 :previousHole;
         invoke %tmp.4 %tmp.5();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 22 4 ]
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 21 4 ]
         %tmp.6 = lgetv %app.1;
-        symbol [ app %tmp.6 22 4 7 ];
-        symbol [ testAllHoles %tmp.7 22 8 20 ];
+        symbol [ app %tmp.6 21 4 7 ];
+        symbol [ testAllHoles %tmp.7 21 8 20 ];
         %tmp.7 = getv function %tmp.6 :testAllHoles;
         invoke %tmp.6 %tmp.7();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 23 4 ]
-        symbol [ WatchUi %tmp.8 23 4 11 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 22 4 ]
+        symbol [ WatchUi %tmp.8 22 4 11 ];
         %tmp.8 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.9 23 12 25 ];
+        symbol [ requestUpdate %tmp.9 22 12 25 ];
         %tmp.9 = getv function %tmp.8 :requestUpdate;
         invoke %tmp.8 %tmp.9();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 24 4 ]
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 23 4 ]
         %tmp.10 = true;
         ret %tmp.10;
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_18_22_25_0_stop:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_17_22_24_0_stop:
     }
-    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 27; @symbol_functiondef = [onPreviousPage,27,9,23]; ]
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 26; @symbol_functiondef = [onPreviousPage,26,9,23]; ]
     function onPreviousPage() {
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_27_26_34_0_start:
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 29 4 ]
-        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_27_26_34_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_27_26_34_0_stop" ]
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_26_26_33_0_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 28 4 ]
+        [ "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_26_26_33_0_start" "_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_26_26_33_0_stop" ]
         %app.1 = local;
-        symbol [ app %app.1 29 8 11 ];
+        symbol [ app %app.1 28 8 11 ];
         %tmp.1 = self;
-        symbol [ getApp %tmp.2 29 14 20 ];
+        symbol [ getApp %tmp.2 28 14 20 ];
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %app.1 %tmp.3;
-        symbol [ app %app.1 29 8 11 ];
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 30 4 ]
+        symbol [ app %app.1 28 8 11 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 29 4 ]
         %tmp.4 = lgetv %app.1;
-        symbol [ app %tmp.4 30 4 7 ];
-        symbol [ nextHole %tmp.5 30 8 16 ];
+        symbol [ app %tmp.4 29 4 7 ];
+        symbol [ nextHole %tmp.5 29 8 16 ];
         %tmp.5 = getv function %tmp.4 :nextHole;
         invoke %tmp.4 %tmp.5();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 31 4 ]
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 30 4 ]
         %tmp.6 = lgetv %app.1;
-        symbol [ app %tmp.6 31 4 7 ];
-        symbol [ testAllHoles %tmp.7 31 8 20 ];
+        symbol [ app %tmp.6 30 4 7 ];
+        symbol [ testAllHoles %tmp.7 30 8 20 ];
         %tmp.7 = getv function %tmp.6 :testAllHoles;
         invoke %tmp.6 %tmp.7();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 32 4 ]
-        symbol [ WatchUi %tmp.8 32 4 11 ];
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 31 4 ]
+        symbol [ WatchUi %tmp.8 31 4 11 ];
         %tmp.8 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.9 32 12 25 ];
+        symbol [ requestUpdate %tmp.9 31 12 25 ];
         %tmp.9 = getv function %tmp.8 :requestUpdate;
         invoke %tmp.8 %tmp.9();
-[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 33 4 ]
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc" 32 4 ]
         %tmp.10 = true;
         ret %tmp.10;
-_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_27_26_34_0_stop:
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_SwolfDelegate_mc_26_26_33_0_stop:
     }
 }
 [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/SwolfDelegate.mc"; @line = 1; ]

@@ -1,19 +1,18 @@
 import Toybox.Lang;
 import Toybox.WatchUi;
+using Toybox.Application as App;
 
 class SwolfDelegate extends WatchUi.BehaviorDelegate {
 
     function initialize() {
         BehaviorDelegate.initialize();
     }
-
-    function onSelect() as Boolean {
-        // Add a stroke
-        var app = getApp();
-        app.addStroke();
-        WatchUi.requestUpdate();
-        return true;
-    }
+function onSelect() {
+    // Show golf menu
+    var golfMenu = new GolfMenu();
+    WatchUi.pushView(golfMenu, new GolfMenuDelegate(), WatchUi.SLIDE_UP);
+    return true;
+}
 
 function onNextPage() {
     // Next hole (UP button)

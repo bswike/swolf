@@ -2,6 +2,7 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Position;
+import Toybox.ActivityRecording;
 
 class SwolfApp extends Application.AppBase {
 
@@ -10,11 +11,20 @@ class SwolfApp extends Application.AppBase {
     private var _currentPosition;
     private var _courseData;
     private var _parValues as Array<Number> = [4,4,4,3,3,5,4,4,5,4,4,4,4,5,3,4,4,4];
+    private var _session;
+    private var _stats;
 
     function initialize() {
         AppBase.initialize();
             _currentPosition = null;
             _courseData = null;
+            _session = null;
+            _stats = {
+        "fairwaysHit" => 0,
+        "putts" => 0,
+        "totalStrokes" => 0,
+        "holesCompleted" => 0
+    };
             loadSparrowsPoint();
             testAllHoles();
             //loadSampleCourse();
@@ -269,10 +279,18 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
     return (R * c * 1.09361).toNumber(); // Convert meters to yards
 }
 
-    // onStart() is called on application start up
-    function onStart(state) {
+function onStart(state) {
+    // Start GPS tracking
     Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:onPosition));
-    }
+    
+    // Start golf activity recording with current API
+    _session = ActivityRecording.createSession({
+        :name => "Sparrows Point Golf",
+        :sport => Activity.SPORT_GOLF,
+        :subSport => Activity.SUB_SPORT_GENERIC
+    });
+    _session.start();
+}
 
     function hasGPSFix() {
     return _currentPosition != null;
@@ -306,9 +324,33 @@ function loadSampleCourse() {
         "backLon" => -122.4202
     };
 }
-    // onStop() is called when your application is exiting
-    function onStop(state as Dictionary?) as Void {
+
+function onStop(state) {
+    // Stop and save golf activity
+    if (_session != null && _session.isRecording()) {
+        _session.stop();
+        _session.save();
+        _session = null;
     }
+}
+
+function completeHole() {
+    _stats["holesCompleted"]++;
+    if (_currentHole < 18) {
+        _currentHole++;
+        _strokes = 0; // Reset strokes for new hole
+    }
+    
+    // Mark lap for completed hole
+    if (_session != null && _session.isRecording()) {
+        _session.addLap();
+    }
+    
+    // Recalculate distances for new hole
+    testAllHoles();
+    
+    WatchUi.requestUpdate();
+}
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {

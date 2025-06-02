@@ -1,0 +1,78 @@
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 3; @symbol_classdef = [GolfMenu,3,6,14]; @symbol_extends<0> = [Ui,3,23,25]; @symbol_extends<1> = [Menu,3,26,30]; ]
+class GolfMenu extends Ui.Menu {
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_GolfMenu_mc_5_26_13_4_start:
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc" 6 8 ]
+        symbol [ Menu %tmp.2 6 8 12 ];
+        %tmp.2 = getv ? :Menu;
+        symbol [ initialize %tmp.3 6 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc" 7 8 ]
+        symbol [ Menu %tmp.5 7 8 12 ];
+        %tmp.5 = getv ? :Menu;
+        symbol [ setTitle %tmp.6 7 13 21 ];
+        %tmp.6 = getv function %tmp.5 :setTitle;
+        %tmp.7 = "Golf";
+        invoke %tmp.5 %tmp.6(%tmp.7);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc" 8 8 ]
+        symbol [ Menu %tmp.9 8 8 12 ];
+        %tmp.9 = getv ? :Menu;
+        symbol [ addItem %tmp.10 8 13 20 ];
+        %tmp.10 = getv function %tmp.9 :addItem;
+        %tmp.11 = "Add Stroke";
+        %tmp.13 = const :add_stroke;
+        symbol [ add_stroke %tmp.13 8 36 46 const ];
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.13);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc" 9 8 ]
+        symbol [ Menu %tmp.15 9 8 12 ];
+        %tmp.15 = getv ? :Menu;
+        symbol [ addItem %tmp.16 9 13 20 ];
+        %tmp.16 = getv function %tmp.15 :addItem;
+        %tmp.17 = "Complete Hole";
+        %tmp.19 = const :complete_hole;
+        symbol [ complete_hole %tmp.19 9 39 52 const ];
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.19);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc" 10 8 ]
+        symbol [ Menu %tmp.21 10 8 12 ];
+        %tmp.21 = getv ? :Menu;
+        symbol [ addItem %tmp.22 10 13 20 ];
+        %tmp.22 = getv function %tmp.21 :addItem;
+        %tmp.23 = "Fairway Hit";
+        %tmp.25 = const :fairway_hit;
+        symbol [ fairway_hit %tmp.25 10 37 48 const ];
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.25);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc" 11 8 ]
+        symbol [ Menu %tmp.27 11 8 12 ];
+        %tmp.27 = getv ? :Menu;
+        symbol [ addItem %tmp.28 11 13 20 ];
+        %tmp.28 = getv function %tmp.27 :addItem;
+        %tmp.29 = "Fairway Missed";
+        %tmp.31 = const :fairway_missed;
+        symbol [ fairway_missed %tmp.31 11 40 54 const ];
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.31);
+[ "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc" 12 8 ]
+        symbol [ Menu %tmp.33 12 8 12 ];
+        %tmp.33 = getv ? :Menu;
+        symbol [ addItem %tmp.34 12 13 20 ];
+        %tmp.34 = getv function %tmp.33 :addItem;
+        %tmp.35 = "Add Putt";
+        %tmp.37 = const :add_putt;
+        symbol [ add_putt %tmp.37 12 34 42 const ];
+        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.37);
+_Users_agnieszkaboron_Desktop_Swolf_Swolf_source_GolfMenu_mc_5_26_13_4_stop:
+    }
+}
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 1; ]
+<init> {
+}
