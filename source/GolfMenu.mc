@@ -1,6 +1,6 @@
-using Toybox.WatchUi as Ui;
+using Toybox.WatchUi;
 
-class GolfMenu extends Ui.Menu {
+class GolfMenu extends WatchUi.Menu {
 
     function initialize() {
         Menu.initialize();

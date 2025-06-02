@@ -1,7 +1,7 @@
-[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
-using Toybox.WatchUi as :Ui;
-[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 3; @symbol_classdef = [GolfMenu,3,6,14]; @symbol_extends<0> = [Ui,3,23,25]; @symbol_extends<1> = [Menu,3,26,30]; ]
-class GolfMenu extends Ui.Menu {
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 3; @symbol_classdef = [GolfMenu,3,6,14]; @symbol_extends<0> = [WatchUi,3,23,30]; @symbol_extends<1> = [Menu,3,31,35]; ]
+class GolfMenu extends WatchUi.Menu {
     [ @file = "/Users/agnieszkaboron/Desktop/Swolf/Swolf/source/GolfMenu.mc"; @line = 3; ]
     <init> {
     }

@@ -1,34 +1,17 @@
-using Toybox.WatchUi as Ui;
+using Toybox.WatchUi;
 using Toybox.Application as App;
 
-class GolfMenuDelegate extends Ui.MenuInputDelegate {
+class GolfMenuDelegate extends WatchUi.MenuInputDelegate {
 
     function initialize() {
         MenuInputDelegate.initialize();
     }
 
-    function onMenuItem(item) {
+function onMenuItem(item) {
+    if (item == :add_stroke) {
         var app = App.getApp();
-        
-        switch (item) {
-            case :add_stroke:
-                app.addStroke();
-                break;
-            case :complete_hole:
-                app.completeHole();
-                break;
-            case :fairway_hit:
-                // Track fairway hit
-                break;
-            case :fairway_missed:
-                // Track fairway miss
-                break;
-            case :add_putt:
-                // Track putt
-                break;
-        }
-        
-        Ui.popView(Ui.SLIDE_DOWN);
-        Ui.requestUpdate();
+        app.addStroke();
     }
+    // Menu closes automatically - don't call popView()
+}
 }

@@ -3,6 +3,8 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Position;
 import Toybox.ActivityRecording;
+import Toybox.System;
+
 
 class SwolfApp extends Application.AppBase {
 
@@ -13,12 +15,14 @@ class SwolfApp extends Application.AppBase {
     private var _parValues as Array<Number> = [4,4,4,3,3,5,4,4,5,4,4,4,4,5,3,4,4,4];
     private var _session;
     private var _stats;
+    private var _shots;
 
     function initialize() {
         AppBase.initialize();
             _currentPosition = null;
             _courseData = null;
             _session = null;
+            _shots = [];
             _stats = {
         "fairwaysHit" => 0,
         "putts" => 0,
@@ -364,9 +368,74 @@ function completeHole() {
         return _strokes;
     }
 
-    function addStroke() {
-        _strokes++;
+function addStroke() {
+    _strokes++;
+    
+    // Add shot location with proper error handling
+    if (_shots != null) {
+        var lat = null;
+        var lon = null;
+        var hasRealGPS = false;
+        
+        // Try to get real GPS coordinates
+        try {
+            if (_currentPosition != null && 
+                _currentPosition has :toDegrees && 
+                _currentPosition.toDegrees != null) {
+                
+                var pos = _currentPosition.toDegrees();
+                if (pos != null && pos.size() >= 2) {
+                    lat = pos[0];
+                    lon = pos[1];
+                    hasRealGPS = true;
+                }
+            }
+        } catch (e) {
+            // GPS access failed, will use fallback
+            hasRealGPS = false;
+        }
+        
+        // Fallback to course coordinates if no real GPS
+        if (!hasRealGPS && _courseData != null) {
+            var currentHoleIndex = _currentHole - 1;
+            if (currentHoleIndex >= 0 && currentHoleIndex < _courseData.size()) {
+                var holeData = _courseData[currentHoleIndex];
+                lat = holeData.get("teeBoxLat");
+                lon = holeData.get("teeBoxLon");
+            }
+        }
+        
+        // Record shot if we have coordinates
+        if (lat != null && lon != null) {
+            try {
+                var shot = {
+                    "hole" => _currentHole,
+                    "stroke" => _strokes,
+                    "lat" => lat,
+                    "lon" => lon,
+                    "gpsType" => hasRealGPS ? "real" : "simulated"
+                };
+                _shots.add(shot);
+            } catch (e) {
+                // Shot recording failed, but don't crash
+            }
+        }
     }
+}
+
+function getShots() {
+    return _shots;
+}
+
+function getShotsForHole(holeNumber) {
+    var holeShots = [];
+    for (var i = 0; i < _shots.size(); i++) {
+        if (_shots[i]["hole"] == holeNumber) {
+            holeShots.add(_shots[i]);
+        }
+    }
+    return holeShots;
+}
 
     function nextHole() {
         if (_currentHole < 18) {
