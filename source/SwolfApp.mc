@@ -4,6 +4,9 @@ import Toybox.WatchUi;
 import Toybox.Position;
 import Toybox.ActivityRecording;
 import Toybox.System;
+import Toybox.Communications;
+import Toybox.PersistedContent;
+import Toybox.Time;
 
 
 class SwolfApp extends Application.AppBase {
@@ -329,7 +332,67 @@ function loadSampleCourse() {
     };
 }
 
+function exportShotsAsJSON() {
+    var jsonString = "{\"shots\":[";
+    
+    if (_shots != null) {
+        for (var i = 0; i < _shots.size(); i++) {
+            var shot = _shots[i];
+            if (i > 0) {
+                jsonString += ",";
+            }
+            jsonString += "{";
+            jsonString += "\"hole\":" + shot.get("hole") + ",";
+            jsonString += "\"stroke\":" + shot.get("stroke") + ",";
+            jsonString += "\"lat\":" + shot.get("lat") + ",";
+            jsonString += "\"lon\":" + shot.get("lon") + ",";
+            jsonString += "\"gpsType\":\"" + shot.get("gpsType") + "\"";
+            jsonString += "}";
+        }
+    }
+    
+    jsonString += "]}";
+    return jsonString;
+}
+
+function uploadRoundData() {
+    var jsonData = exportShotsAsJSON();
+    
+    // Get current date/time info
+    var moment = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+    var dateString = moment.month + "/" + moment.day + "/" + moment.year + 
+                    " " + moment.hour + ":" + moment.min.format("%02d");
+    
+    var url = "https://docs.google.com/forms/d/e/1FAIpQLSfY6SNBtxMq3YoIENPhNDGcx2-comn8xv71Yf1oxSFiY1s3qg/formResponse";
+    
+    var params = {
+        "entry.1047502469" => "Sparrows Point",
+        "entry.2091613779" => jsonData,
+        "entry.217907754" => dateString // Normal date like "6/1/2025 2:30"
+    };
+    
+    var options = {
+        :method => Communications.HTTP_REQUEST_METHOD_POST,
+        :headers => {
+            "Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED
+        }
+    };
+
+    Communications.makeWebRequest(url, params, options, method(:onUploadComplete));
+}
+
+function onUploadComplete(responseCode as Number, data as Dictionary) as Void {
+    if (responseCode == 200) {
+        // Upload successful - data should appear in your Google Form responses
+    } else {
+        // Upload failed
+    }
+}
+
 function onStop(state) {
+    // Upload shot data before closing activity
+    uploadRoundData();
+    
     // Stop and save golf activity
     if (_session != null && _session.isRecording()) {
         _session.stop();
